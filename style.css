@@ -1,0 +1,138 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Nunito",sans-serif;
+  background: #f8f8f8;
+  background-image: url(webpic.jpg);
+  background-size: cover;
+
+  
+}
+.button1
+{
+  position: absolute;
+  top:10px;
+  right:10px;
+  width:150px;
+  height:60px;
+  font size:25px;
+  text-align: center;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  padding: 15px 32px;
+
+}
+.button1:hover
+{
+  background-color: light blue;
+        color: white;
+}
+
+.input{
+  text-align: center;
+  margin: 100px auto;
+}
+
+  .button
+    {
+      width: 250px;
+      height: 60px;
+      text-align: center;
+      font-size: 25px;
+      padding: 15px 32px;
+      background-color: white;
+      border-radius: 12px;
+      transition-duration: 0.4s;
+    }
+    .button:hover
+    {
+      background-color: #555555;
+        color: blue;
+    }
+
+.input input[type="text"]{
+  width: 600px;
+  height: 55px;
+  padding: 5px 10px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: "Nunito",sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.card1{
+  width: 50%;
+  
+  height: 65vh;
+  margin: 30px auto;
+  
+  
+}
+.card1 h1{
+  padding: 25px 0;
+  color:black;
+  text-align: center;
+  text-shadow:3px 1px blue;
+  font-size: 40px;
+}
+
+.card1 p{
+  text-align: center;
+  margin:40px 0;
+  font-size:25px;
+}
+.card1:hover
+{
+  
+        color: white;
+}
+.card2:hover
+{
+  
+        color: white;
+}
+.card3:hover
+{
+  
+        color: white;
+}
+.card2{
+  width: 50%;
+  
+  height: 65vh;
+  margin: 30px auto;
+  
+  }
+
+
+.card2 p{
+  text-align: center;
+  margin:40px 0;
+  font-size:25px;
+}
+.card3{
+  width: 50%;
+  
+  height: 50vh;
+  margin: 30px auto;
+  
+}
+
+
+.card3 p{
+  text-align: center;
+  margin:40px 0;
+  font-size:25px;
+}
+.close{
+  float: right;
+  margin-top: -2px;
+  cursor: pointer;
+  margin-right: 20px;
+}
